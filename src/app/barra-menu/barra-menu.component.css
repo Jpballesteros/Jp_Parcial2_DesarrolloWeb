@@ -1,0 +1,13 @@
+.menu-bar {
+    background-color: #dfdfdf;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+  }

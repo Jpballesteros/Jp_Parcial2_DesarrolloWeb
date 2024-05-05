@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 340px;
+  margin-bottom: 30px;
+  padding: 45px;
+}
+
+.card img {
+  max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura de la imagen se ajuste automáticamente para mantener la proporción */
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  text-align: right;
+  font-size: 20px;
+}
+
+
+.buy-link {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.buy-link:hover {
+  text-decoration: underline;
+}
+
+.titulo{
+  color: red;
+  text-align: center;
+}
